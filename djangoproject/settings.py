@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp',  # Ensure this line is present if you have an app named 'myapp'
+    'myapp.apps.MyappConfig',  # Ensure this line is present if you have an app named 'myapp'
 ]
 
 MIDDLEWARE = [
